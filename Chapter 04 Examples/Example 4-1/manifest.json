@@ -1,0 +1,21 @@
+{
+  "name": "MVX",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["fetch-page.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

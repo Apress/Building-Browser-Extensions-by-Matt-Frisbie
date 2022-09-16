@@ -1,0 +1,6 @@
+{
+  "name": "Minimum Viable Extension",
+  "description": "Browser extension crash course",
+  "version": "0.0.1",
+  "manifest_version": 3
+}

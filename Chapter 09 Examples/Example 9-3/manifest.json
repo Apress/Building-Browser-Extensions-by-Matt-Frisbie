@@ -1,0 +1,13 @@
+{
+  "name": "MVX",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.wikipedia.org/*"],
+      "css": [],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": []
+}

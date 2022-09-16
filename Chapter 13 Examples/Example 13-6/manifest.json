@@ -1,0 +1,21 @@
+{
+  "name": "MVX",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+  "action": {},
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*.wikipedia.org/*", "*://*.wikimedia.org/*"]
+}

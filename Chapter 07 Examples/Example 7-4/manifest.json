@@ -1,0 +1,19 @@
+{
+  "name": "MVX",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms", "tabs"],
+  "action": {},
+  "commands": {
+    "foobar": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+J",
+        "mac": "MacCtrl+Shift+J"
+      },
+      "description": "Perform foobar action"
+    }
+  }
+}

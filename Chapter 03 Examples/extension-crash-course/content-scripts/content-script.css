@@ -1,0 +1,8 @@
+#container {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 2rem;
+  top: 0;
+  left: 0;
+}

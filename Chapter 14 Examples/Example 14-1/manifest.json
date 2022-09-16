@@ -1,0 +1,26 @@
+{
+  "name": "MVX",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": [
+    "scripting", 
+    "declarativeNetRequest", 
+    "tabs"
+   ],
+  "host_permissions": ["<all_urls>"]
+}
