@@ -2,6 +2,9 @@
 
 [buildingbrowserextensions.com](https://buildingbrowserextensions.com)
 
+## Errata
+[errata.md](https://github.com/Apress/Building-Browser-Extensions-by-Matt-Frisbie/blob/main/errata.md)
+
 ## Companion extension
 [Browser Extension Explorer](https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf)
 
