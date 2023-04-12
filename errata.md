@@ -2,8 +2,6 @@
 
 Note: These page numbers match the print edition. eBook editions may differ.
 
-## Chapter 5
-
 ### Page 123
 
 The example is missing quotes around the URL. It should read:
@@ -45,3 +43,11 @@ declarative_net_request": {
   ]
 }
 ```
+
+### Page 179
+
+`popup.js with forbitten eval()`
+
+should be
+
+`popup.js with forbidden eval()`
