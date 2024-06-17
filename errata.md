@@ -51,3 +51,20 @@ declarative_net_request": {
 should be
 
 `popup.js with forbidden eval()`
+
+### Page 236, 
+
+The `open_in_tab` booleans are described backwards.
+
+If options_ui.open_in_tab is <b>`true`</b>, the options page by default will open in a browser tab.
+If options_ui.open_in_tab is <b>`false`</b>, the options page by default will open in a modal over the browser's extension manager page.
+
+### Page 245, 
+
+The first word sould not be pluralized.  
+
+Contents Scripts -> Content Scripts
+
+### Page 307
+
+The URL in the tip at the top of the page is https://buildbrowserextensions.com/b2x.  This should be <b>https://buildingbrowserextensions.com/b2x</b>  
